@@ -1,0 +1,13 @@
+{
+  "baseUrlKey": "secondsurl",
+  "uriPath": "/quality assurance",
+  "parent": "common",
+  "loadTimeout": 0,
+  "elementKeys": "apply job header",
+
+  "elements": {
+    "apply job header": "(//a[normalize-space(text())='Apply for this job'])[1]"
+
+
+  }
+}

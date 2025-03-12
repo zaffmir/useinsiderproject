@@ -1,0 +1,22 @@
+{
+  "baseUrls":{
+    "individual": "https://useinsider.com/",
+    "secondsurl": "https://useinsider.com/careers/quality-assurance/"
+  },
+  "web": {
+    "browsers": {
+      "default": {
+        "type": "chrome",
+        "headless": false,
+        "arguments": [
+          "--disable-web-security", "--start-fullscreen"
+        ],
+        "windowSize": "1366,768"
+      }
+    },
+    "pageLoadTimeout": 15,
+    "elementTimeout": 5,
+    "captureScreenOnSuccess": true
+  }
+
+}

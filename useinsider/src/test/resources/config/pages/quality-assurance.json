@@ -1,0 +1,13 @@
+{
+  "baseUrlKey": "secondsurl",
+  "uriPath": "/quality assurance",
+  "parent": "common",
+  "loadTimeout": 0,
+  "elementKeys": "use quality assurance",
+
+  "elements": {
+    "use quality assurance": "//h1[contains(@class, 'big-title') and contains(text(), 'Quality Assurance')]",
+    "see all qa jobs": "//a[normalize-space(text())='See all QA jobs']"
+
+  }
+}

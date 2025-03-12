@@ -1,0 +1,20 @@
+{
+  "baseUrlKey": "secondsurl",
+  "uriPath": "/quality assurance",
+  "parent": "common",
+  "loadTimeout": 0,
+  "elementKeys": "open positions header",
+
+  "elements": {
+    "open positions header": "//h3[normalize-space(text())='All open positions']",
+    "filter by location": "//span[contains(@class, 'select2-selection__rendered') and contains(text(), 'All')]",
+    "filter by department": "//span[normalize-space(text())='Quality Assurance']",
+    "view role": "(//a[normalize-space(text())='View Role'])[1]"
+
+  }
+}
+
+
+
+
+

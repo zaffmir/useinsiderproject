@@ -1,0 +1,13 @@
+{
+  "baseUrlKey": "individual",
+  "uriPath": "/home",
+  "parent": "common",
+  "loadTimeout": 0,
+  "elementKeys": "use homepage",
+
+  "elements": {
+    "use homepage": "(//a[@id='navbarDropdownMenuLink' and .//img[@class='dropdown-icon']])[1]",
+    "company button": "//a[@class='nav-link dropdown-toggle hide-after' and @id='navbarDropdownMenuLink' and contains(text(), 'Company')]",
+    "careers button": "//a[@class='dropdown-sub' and contains(text(), 'Careers')]"
+  }
+}

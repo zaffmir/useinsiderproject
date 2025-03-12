@@ -1,0 +1,21 @@
+{
+  "baseUrlKey": "individual",
+  "uriPath": "/home",
+  "parent": "individual common",
+  "loadTimeout": 0,
+  "elementKeys": "careers header",
+
+  "elements": {
+    "careers header": "//h1[contains(text(), 'Ready to disrupt')]",
+    "locations": "//h3[normalize-space(text())='Our Locations']",
+    "teams": "//h3[contains(@class, 'category-title-media') and contains(text(), 'Find your calling')]",
+    "life insider blocks": "//h2[contains(@class, 'elementor-heading-title') and contains(text(), 'Life at Insider')]"
+  }
+}
+
+
+
+
+
+
+
